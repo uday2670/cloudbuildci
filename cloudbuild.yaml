@@ -54,8 +54,8 @@ steps:
 artifacts:
   objects:
     location: gs://udaypython/
-    paths:
-      - dev_test_log.xml
+    # paths:
+    #   - dev_test_log.xml
 # [END cloudbuild_python_logs_yaml]
 # Store images in Google Artifact Registry 
 images:
